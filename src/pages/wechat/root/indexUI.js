@@ -4,7 +4,8 @@ import "./index.css"
 export default (props)=>{
     return(
         <div className="page">
-            微信
+        {props.title}
+            
         </div>
     )
 }

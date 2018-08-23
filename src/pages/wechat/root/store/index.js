@@ -1,7 +1,8 @@
 const initState = {
-    title:"微信"
+    title:"微信",
+    test:"test"
 }
 
-export default function me(state=initState,action){
+export default function weChatReducer(state=initState,action){
     return state
 }

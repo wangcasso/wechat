@@ -2,15 +2,22 @@ import React,{Component} from "react"
 import UI from "./indexUI"
 import {connect} from "react-redux"
 
+
 class Index extends Component{
-    render(){
-        return <UI/>
+    constructor(){
+        super()
+    console.log(this)
+        
     }
+    render(){
+        return <UI {...this.props}/>
+    }
+    
 }
 
 const mapStateToProps = ({wechat})=>{
     return{
-        title:wechat.title
+        ...JSON.parse(JSON.stringify(wechat))
     }
 }
 

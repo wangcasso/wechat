@@ -4,13 +4,13 @@ import {connect} from "react-redux"
 
 class Index extends Component{
     render(){
-        return <UI/>
+        return <UI {...this.props} />
     }
 }
 
 const mapStateToProps = ({discovery})=>{
     return{
-        title:discovery.title
+        ...JSON.parse(JSON.stringify(discovery))
     }
 }
 

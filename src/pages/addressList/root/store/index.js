@@ -1,7 +1,7 @@
 const initState = {
-    title:"微信"
+    title:"通讯录"
 }
 
-export default function me(state=initState,action){
+export default function addressListReducer(state=initState,action){
     return state
 }

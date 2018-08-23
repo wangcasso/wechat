@@ -11,7 +11,7 @@ import Discovery from './pages/discovery/root/index'
 import Me from './pages/me/root/index'
 
 
-class App extends Component {
+export default class App extends Component {
  
   render() {
     return (
@@ -36,4 +36,3 @@ class App extends Component {
   }
 }
 
-export default App;

@@ -4,7 +4,7 @@ import "./index.css"
 
 const tabsData = [
   {id: 1, title: '微信', path: '/wechat', badge: '',
-  SVG: 'https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg',
+  SVG: '../../../public/svg/talk.svg',
   selectSVG: 'https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg'
  
   },

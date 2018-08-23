@@ -1,7 +1,7 @@
 const initState = {
-    title:"微信"
+    title:"我"
 }
 
-export default function me(state=initState,action){
+export default function meReducer(state=initState,action){
     return state
 }
