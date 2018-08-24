@@ -1,2 +1,24 @@
-* {
-  margin: 0; }
+.bcolor {
+  background: #ebebeb; }
+  .bcolor .fixTop {
+    width: 3.60rem;
+    height: 1.9066667rem;
+    background: #fff;
+    padding: 0 .13rem .22rem; }
+    .bcolor .fixTop .fixitem {
+      height: .47333333rem;
+      border-bottom: 1px solid #d7d7d7; }
+      .bcolor .fixTop .fixitem div {
+        margin-top: .07rem;
+        width: 100%;
+        height: .33rem;
+        display: inline-block; }
+        .bcolor .fixTop .fixitem div p {
+          margin-left: .4466667rem;
+          font-size: .13333rem;
+          display: inline-block;
+          line-height: .33rem; }
+    .bcolor .fixTop .public {
+      border-bottom: none; }
+
+/*# sourceMappingURL=index.css.map */

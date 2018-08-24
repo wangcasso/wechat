@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 import Tab from "./common/tabs"
+import header from "./common/header"
 
 
 // 页面
@@ -17,6 +18,7 @@ export default class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Route path="/" component={header}/>
           <Route path="/" exact render={()=>{
             return <Redirect to="/wechat"/>
           }}/>

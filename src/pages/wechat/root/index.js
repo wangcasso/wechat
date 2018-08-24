@@ -6,15 +6,18 @@ import {connect} from "react-redux"
 class Index extends Component{
     constructor(){
         super()
-    console.log(this)
-        
+        this.state
     }
     render(){
         return <UI {...this.props}/>
     }
+    componentDidMount(){
+        console.log(this.props)
+
+    }
     
 }
-
+//state换成包含history location match 的 props
 const mapStateToProps = ({wechat})=>{
     return{
         ...JSON.parse(JSON.stringify(wechat))

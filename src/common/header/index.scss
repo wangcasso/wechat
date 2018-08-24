@@ -1,0 +1,32 @@
+#header{
+    height:.6233333rem;
+    background: #303030;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .title{
+    color:#fbfbfb;
+    padding-top: .33rem;
+    padding-left: .13666667rem;
+    font-size: .1566667rem;
+    font-weight: 500;
+    display: inline-block;
+    }
+    .tip{
+        float:right;
+        display: flex;
+        justify-content: space-between;
+        height:.1666666.7rem;
+        font-size: .1566667rem;
+        color:#fbfbfb;
+        width:.696666667rem;
+        padding-top: .32rem;
+        margin-right: .23rem;
+        div:nth-of-type(2){
+        font-size: .2566667rem;
+        transform: translateY(-25%)
+
+        }
+    }
+}

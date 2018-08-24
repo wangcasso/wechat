@@ -1,0 +1,29 @@
+#header {
+  height: .6233333rem;
+  background: #303030;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  #header .title {
+    color: #fbfbfb;
+    padding-top: .33rem;
+    padding-left: .13666667rem;
+    font-size: .1566667rem;
+    font-weight: 500;
+    display: inline-block; }
+  #header .tip {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    height: 0.16667 0.7rem;
+    font-size: .1566667rem;
+    color: #fbfbfb;
+    width: .696666667rem;
+    padding-top: .32rem;
+    margin-right: .23rem; }
+    #header .tip div:nth-of-type(2) {
+      font-size: .2566667rem;
+      transform: translateY(-25%); }
+
+/*# sourceMappingURL=index.css.map */
